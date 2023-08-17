@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useRef, useEffect, useState } from "react";
-import { useMousePosition } from "../util/page";
+import useMousePosition  from "../util/page";
 
 interface ParticlesProps {
 	className?: string;
@@ -116,6 +116,7 @@ export default function Particles({
 			dy,
 			magnetism,
 		};
+
 	};
 
 	const drawCircle = (circle: Circle, update = false) => {
