@@ -1,5 +1,3 @@
-"use client";
-
 import Home from "./home/page";
 import Navbar from "./navbar/page";
 
