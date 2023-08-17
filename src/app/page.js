@@ -9,7 +9,7 @@ const Page = () => {
         {Home()}
 {/*         
         <div className="w-screen justify-center"> */}
-          <div className="bg-gradient-to-b from-[#2ea043] to-white w-1 h-96 duration-1000 hover:scale-y-[2]"></div>          
+          {/* <div className="bg-gradient-to-b from-[#2ea043] to-white w-1 h-96 duration-1000 hover:scale-y-[2]"></div>           */}
         {/* </div> */}
       </main>
     </div>
