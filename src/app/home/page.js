@@ -26,7 +26,7 @@ export default function Home() {
 
       <div className="w-4/5 md:w-2/5 mt-7 text-center animate-fade-in">
         <h2 className="text-sm text-zinc-500 leading-7">
-        Namaste, wanderer of the web! Step into my domain where the binary heartbeats of technology resonate. I'm <span className="text-blue-500" > Shubham Mehar</span>, and this is my playground
+        Namaste, wanderer of the web! Step into my domain where the binary heartbeats of technology resonate. I&apos;m <span className="text-blue-500" > Shubham Mehar</span>, and this is my playground
         </h2>
       </div>
     </div>
