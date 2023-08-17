@@ -1,0 +1,26 @@
+.home_wrapper{
+   width:100vw;
+}
+
+.navbar_wrapper{
+    position: sticky;
+    z-index: 1000;
+    top: 30px;
+    width:100%;
+    justify-content: center;
+  }
+  
+  .timeline{
+    margin: 50px;
+    background: linear-gradient( #2ea043, #2ea043,#000000);
+    width: 3px;
+    height: 50px; 
+  }
+
+  .timeline:hover{
+    margin: 50px;
+    transition: 3s; 
+    transform: scaleY(10);
+    background: linear-gradient( #2ea043, #2ea043,#000000);
+    width: 3px;    
+  }

@@ -1,0 +1,27 @@
+.navbar{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%,0%);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    padding: 15px 10px;
+    background: rgba(255, 255, 255, 0.1); 
+    backdrop-filter: blur(10px); 
+    border-radius: 100px; 
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1); /* Use a white shadow */
+    color: rgb(200,200,200);
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.navbar li{
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    transform: translate(0px,-2px);
+    transition: .5s;
+    color: rgb(70, 122, 255);
+}
